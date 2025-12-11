@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paws & Play</title>
+    <link rel="icon" type="image/png" href="assets/images/icon/paw.svg">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -116,9 +118,490 @@
             </div>
         </div>
     </section>
-    <section style="height: 100vh; background: #000;"></section>
+    <section id="shop">
+        <div class="container">
+            <div class="heading">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <img src="/assets/images/icon/paw.svg" alt="Paws & Play - Logo" class="">
+                    <p>Shop</p>
+                </div>
+                <img src="/assets/images/icon/search.svg" alt="icon" class="about-icon-search">
+            </div>
+            <div class="box">
+                <div class="top">
+                    <p>Featured Products</p>
+                    <div class="search">
+                        <img src="/assets/images/icon/search.svg" alt="">
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+                <div class="content">
+                    <ul class="list">
+                        <li><button class="btn active">Random</button></li>
+                        <li><button class="btn">Cat</button></li>
+                        <li><button class="btn">Dogs</button></li>
+                        <li><button class="btn">Fish</button></li>
+                        <li><button class="btn">Birds</button></li>
+                    </ul>
+                    <div class="swiper mySwiperShop">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <img src="/assets/images/products/cat-food.png" alt="product">
+                                </div>
+                                <div class="product-card second">
+                                    <img src="/assets/images/products/cat-food-2.png" alt="product">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <img src="/assets/images/products/cat-food-1.png" alt="product">
+                                </div>
+                                <div class="product-card second">
+                                    <img src="/assets/images/products/cat-food-2.png" alt="product">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <img src="/assets/images/products/cat-food-2.png" alt="product">
+                                </div>
+                                <div class="product-card second">
+                                    <img src="/assets/images/products/cat-food-1.png" alt="product">
+                                </div>
+                            </div>
+                            <!-- <div class="swiper-slide">
+                                <div class="product-card">
+                                    <img src="/assets/images/products/dog-food.png" alt="product">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <img src="/assets/images/products/dog-food-1.png" alt="product">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <img src="/assets/images/products/dog-food-2.png" alt="product">
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="frame-link">
+                        <a href="" target="_blank">
+                            View More >>>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <div class="heading">
+                <img src="/assets/images/icon/paw.svg" alt="Paws & Play - Logo" class="">
+                <p>Services</p>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <div class="item twin">
+                        <div class="card">
+                            <img src="/assets/images/services/grooming.webp" alt="Grooming">
+                            <div>
+                                <p>Grooming</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="/assets/images/services/veterinary.webp" alt="Veterinary">
+                            <div>
+                                <p>Veterinary</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item twin">
+                        <div class="card">
+                            <img src="/assets/images/services/boarding.webp" alt="Boarding">
+                            <div>
+                                <p>Boarding</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="/assets/images/services/training.webp" alt="Training">
+                            <div>
+                                <p>Training</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card-long">
+                            <img src="/assets/images/services/adoption.webp" alt="Adoption">
+                            <div>
+                                <p>Adoption</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="heading">
+                <img src="/assets/images/icon/paw.svg" alt="Paws & Play - Logo" class="">
+                <p>About Us</p>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <div>
+                        <p>At Paws n’ Play, our journey began with a simple yet profound love for animals. Inspired by
+                            the unwavering companionship and joy they bring to our lives, we embarked on a mission to
+                            create a haven where pets and their owners alike could experience unparalleled happiness and
+                            care.</p>
+                        <p>Driven by our passion for animal welfare, we hand-select each product and service with
+                            meticulous attention to quality and sustainability. From nutritious food and enriching toys
+                            to expert grooming and healthcare, every offering is carefully curated to meet the unique
+                            needs of our beloved furry friends.</p>
+                        <p>But our commitment doesn't end there. We're dedicated to fostering a community that
+                            celebrates the bond between pets and their human companions. Through educational resources,
+                            compassionate support, and memorable experiences, we strive to empower pet owners to provide
+                            the best possible care for their furry family members.</p>
+                        <p>At Paws n’ Play, customer satisfaction isn't just a goal – it's our guiding principle. We go
+                            above and beyond to ensure every interaction leaves tails wagging and hearts smiling. From
+                            personalized recommendations to attentive service, we're here to make your journey with your
+                            pet as joyful and fulfilling as possible.</p>
+                        <p>Join us in our mission to create a world where every pet is cherished, every need is met, and
+                            every tail wags with happiness. Welcome to Paws n’ Play, where pets are family, and love
+                            knows no bounds.</p>
+                    </div>
+                    <div>
+                        <img src="/assets/images/about/about.webp" alt="About Us">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container">
+            <div class="heading">
+                <img src="/assets/images/icon/paw.svg" alt="Paws & Play - Logo" class="">
+                <p>Our Team</p>
+            </div>
+            <div class="box">
+                <div class="swiper mySwiperTeam">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                <div class="img">
+                                    <img src="/assets/images/our_team/doctor1.webp" alt="Team 1">
+                                </div>
+                                <div class="detail">
+                                    <p>Dr. Olivia Rhye</p>
+                                    <p>Senior Veterinarian</p>
+                                </div>
+                                <div class="social">
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/twitter.svg" alt="">
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/linkedin.svg" alt="">
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/facebook.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                <div class="img">
+                                    <img src="/assets/images/our_team/doctor2.webp" alt="Team 1">
+                                </div>
+                                <div class="detail">
+                                    <p>Phoenix Baker</p>
+                                    <p>Asst. Veterinarian</p>
+                                </div>
+                                <div class="social">
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/twitter.svg" alt="">
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/linkedin.svg" alt="">
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/facebook.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                <div class="img">
+                                    <img src="/assets/images/our_team/doctor3.webp" alt="Team 1">
+                                </div>
+                                <div class="detail">
+                                    <p>Lana Steiner</p>
+                                    <p>Resident Veterinarian</p>
+                                </div>
+                                <div class="social">
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/twitter.svg" alt="">
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/linkedin.svg" alt="">
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/facebook.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                <div class="img">
+                                    <img src="/assets/images/our_team/doctor4.webp" alt="Team 1">
+                                </div>
+                                <div class="detail">
+                                    <p>Demi Wilkinson</p>
+                                    <p>Intern Veterinarian</p>
+                                </div>
+                                <div class="social">
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/twitter.svg" alt="">
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/linkedin.svg" alt="">
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <img src="/assets/images/icon/brands/facebook.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="container">
+            <div class="heading">
+                <img src="/assets/images/icon/paw.svg" alt="Paws & Play - Logo" class="">
+                <p>Blog</p>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <p class="title">Milestone: 20,000 Pets Treated</p>
+                    <p>Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus
+                        velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at.
+                        Suscipit tristique risus, at donec. In turpis vel et quam imperdiet. Ipsum molestie aliquet
+                        sodales id est ac volutpat. Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat
+                        mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at
+                        habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet. Ipsum
+                        molestie aliquet sodales id est ac volutpat. </p>
+                    <p class="subtitle">Renewed target</p>
+                    <p>Pharetra morbi libero id aliquam elit massa integer tellus. Quis felis aliquam ullamcorper
+                        porttitor. Pulvinar ullamcorper sit dictumst ut eget a, elementum eu. Maecenas est morbi mattis
+                        id in ac.</p>
+                    <div style="padding-top: 20px;">
+                        <a href="" class="btn-darkblue">Read More</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="/assets/images/blog.webp" alt="">
+                    <div>
+                        <img src="/assets/images/icon/player.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="heading">
+                <img src="/assets/images/icon/paw.svg" alt="Paws & Play - Logo" class="">
+                <p>Get in touch</p>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <form action="" method="post">
+                        <div class="row">
+                            <div class="col">
+                                <label for="">First Name</label>
+                                <input type="text" name="" id="" placeholder="First Name">
+                            </div>
+                            <div class="col">
+                                <label for="">Last Name</label>
+                                <input type="text" name="" id="" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="col-full">
+                            <label for="">Email</label>
+                            <input type="text" name="" id="" placeholder="you@company.com">
+                        </div>
+                        <div class="col-full">
+                            <label for="">Message</label>
+                            <textarea name="" id="" rows="10"></textarea>
+                        </div>
+                        <div class="col-full">
+                            <label>
+                                <input type="checkbox" name="agree">
+                                You agree to our friendly <a href="" class="policy">privacy policy</a>.
+                            </label>
+                        </div>
+                        <div class="col-full">
+                            <button type="submit" class="btn-darkblue">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <div class="item">
+                            <img src="/assets/images/icon/mail.svg" alt="email">
+                            <p class="title">Email</p>
+                            <p class="subtitle">Our friendly team is here to help.</p>
+                            <p class="value">hello@pawsnplay.com</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/images/icon/message-circle.svg" alt="live chat">
+                            <p class="title">Live Chat</p>
+                            <p class="subtitle">Our friendly team is here to help.</p>
+                            <p class="value">Start new chat</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/images/icon/map-pin.svg" alt="live chat">
+                            <p class="title">Office</p>
+                            <p class="subtitle">Come say hello at our office HQ.</p>
+                            <p class="value">123, Yaya Abatan st, Ogba Lagos.</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/images/icon/phone.svg" alt="live chat">
+                            <p class="title">Phone</p>
+                            <p class="subtitle">Mon-Fri from 8am to 5pm.</p>
+                            <p class="value">+234 901234 384</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="subscribe">
+                <div class="left">
+                    <p class="text-white">Join our newsletter</p>
+                    <p class="text-lightwhite">Be the first to receive latest updates on promo, sales and offers</p>
+                </div>
+                <div class="right">
+                    <input type="text" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="left">
+                    <div class="logo">
+                        <img src="/assets/images/icon/paw.svg" alt="Paws & Play - Logo">
+                        <p>Paws & Play</p>
+                    </div>
+                    <p class="text-lightwhite">Where wagging tails and purring hearts reign supreme!</p>
+                </div>
+                <div class="right">
+                    <div class="item">
+                        <p>Shop</p>
+                        <ul>
+                            <li><a href="">Pet Adoption</a></li>
+                            <li><a href="">Nutrition</a></li>
+                            <li><a href="">Pet Care</a></li>
+                            <li><a href="">Pet Food</a></li>
+                            <li><a href="">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <p>Company</p>
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Press</a></li>
+                            <li><a href="">News</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <p>Service</p>
+                        <ul>
+                            <li><a href="">Grooming</a></li>
+                            <li><a href="">Boarding</a></li>
+                            <li><a href="">Training</a></li>
+                            <li><a href="">Veterinary</a></li>
+                            <li><a href="">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <p>Social</p>
+                        <ul>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">LinkedIn</a></li>
+                            <li><a href="">Facebook</a></li>
+                            <li><a href="">Instagram</a></li>
+                            <li><a href="">AngelList</a></li>
+                            <li><a href="">Dribbble</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <p>Legal</p>
+                        <ul>
+                            <li><a href="">Terms</a></li>
+                            <li><a href="">Privacy</a></li>
+                            <li><a href="">Cookies</a></li>
+                            <li><a href="">Licenses</a></li>
+                            <li><a href="">Setting</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2024 Paws & Play. All rights reserved.</p>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="/assets/images/icon/brands/twitter.svg" alt="social">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="/assets/images/icon/brands/linkedin.svg" alt="social">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="/assets/images/icon/brands/facebook.svg" alt="social">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="/assets/images/icon/brands/github.svg" alt="social">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="/assets/images/icon/brands/dribbble.svg" alt="social">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
 
     <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
 </body>
 
 </html>
